@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjetoSalesWebMVC.Data;
 
 namespace ProjetoSalesWebMVC.Migrations
 {
     [DbContext(typeof(ProjetoSalesWebMVCContext))]
-    partial class ProjetoSalesWebMVCContextModelSnapshot : ModelSnapshot
+    [Migration("20220904133422_DepartmentForeignKey")]
+    partial class DepartmentForeignKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -12,6 +12,7 @@ namespace ProjetoSalesWebMVC.Models
         public DateTime BirthDate { get; set; }
         public double BaseSalary { get; set; }
         public Department Department { get; set; }
+        public int DepartmentID { get; set; }
 
         ICollection<SalesRecord> Sales = new List<SalesRecord>();
 
