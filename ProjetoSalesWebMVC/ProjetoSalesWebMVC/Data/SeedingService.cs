@@ -1,7 +1,10 @@
-﻿using ProjetoSalesWebMVC.Models;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using ProjetoSalesWebMVC.Models;
 using ProjetoSalesWebMVC.Models.Enums;
+
 
 
 namespace ProjetoSalesWebMVC.Data
